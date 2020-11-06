@@ -34,12 +34,13 @@ plugins:
 
 defaults:
   -
-   values:
-    layout: "default" 
+  #  values:
+  #   layout: "default" 
   
   scope:
     type: "posts"
   values:
+    layout: "default"
     permalink: /:collection/:categories/:title
 
 
