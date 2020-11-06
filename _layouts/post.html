@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class='header'>
+  <h2>{{ page.title }}</h2>
+  {% if page.description %}
+    <p class='description'>{{ page.description }}</p>
+  {% endif %}
+  <p>{{ page.date | date: '%B %d, %Y' }}<p>
+</div>
+<hr/>
+
+<div>
+  {% if page.github_name %}
+    <h4>Code on Github</h4>
+    <a href="{{ site.data.social-media['github'].href }}{{ site.data.social-media['github'].id }}/{{page.github_name}}" title="{{ site.data.social-media['github'].title }}">Link to code</i></a>
+  {% endif %}
+  {{content}}
+</div>
