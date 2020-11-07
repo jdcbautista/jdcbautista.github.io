@@ -6,7 +6,7 @@ layout: home
 ---
 Test -->
 ---
-layout: page
+layout: slider
 title: 'Home'
 permalink: '/'
 ---

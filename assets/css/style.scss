@@ -24,6 +24,12 @@
 
 
 //CAROUSEL
+.carousel_container {
+  max-width: 100rem;
+  display: flex;
+  flex-direction: row;
+
+}
 
 @keyframes tonext {
   75% {
