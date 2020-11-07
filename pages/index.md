@@ -6,9 +6,9 @@ layout: home
 ---
 Test -->
 ---
-layout: slider
+layout: page
 title: 'Home'
 permalink: '/'
 ---
 
-## Hello World!
+## Sup world!
