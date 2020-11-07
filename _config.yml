@@ -34,14 +34,11 @@ plugins:
 
 defaults:
   -
-  #  values:
-  #   layout: "default" 
-  
-  scope:
-    type: "posts"
-  values:
-    layout: "default"
-    permalink: /:collection/:categories/:title
+    scope:
+      type: "posts"
+    values:
+      layout: "default"
+      permalink: /:collection/:categories/:title
 
 
 # Exclude from processing.
