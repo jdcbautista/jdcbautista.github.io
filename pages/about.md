@@ -1,13 +1,15 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
-<div>
-Homo Deus: A Brief History of Tomorrow
+<div class="whatevs">
+<p>
+Some of my favorite books:<br>
+
+Homo Deus: A Brief History of Tomorrow<br>
 by Yuval Noah Harari
 
-Some of my favorite books:
 Creativity: The Psychology of Discovery & Invention
 by Mihaly Csikszentmihalyi
 
@@ -35,9 +37,10 @@ by Oliver Burkeman
 The Sailor Who Fell from Grace with the Sea
 by Yukio Mishima
 
+</p>
 </div>
 
-<!-->
+<!-- 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
@@ -50,4 +53,4 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
-<--!>
+-->

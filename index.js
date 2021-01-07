@@ -10,6 +10,7 @@ const c = canvas.getContext('2d')
 //subproperty innerWidth of window property can exclude window from window.innerWidth 
 canvas.width = innerWidth
 canvas.height = innerHeight
+canvas.fillStyle = "333333"
 
 console.log(c)
 currentColor = "#fefefe"
@@ -131,7 +132,39 @@ function padZero(str, len) {
 
 
 
+
 //CLASSES
+
+class Title {
+  constructor(x, y, color) {
+
+    this.x = x
+    this.y = y
+    this.color = color
+    // this.gradient = c.createLinearGradient(0,0, c.width, 0);
+    // this.gradient.addColorStop("0", "magenta");
+    // this.gradient.addColorStop("0.5", "blue");
+    // this.gradient.addColorStop("1", "red");
+    
+  }
+
+  draw() {
+    // c.beginPath()
+    // c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
+    // c.fillStyle = this.color 
+    // c.fill()
+    c.font = "30px Arial"
+    // c.fillStyle = this.gradient;
+    c.fillText("Julius Bautista", 20, 40)
+  }
+
+  update() {
+    this.draw()
+    this.x = this.x + this.velocity.x * diffMult
+    this.y = this.y + this.velocity.y * diffMult
+  }
+
+}
 
 class Player {
   constructor(x,y,radius,color) {
@@ -166,6 +199,7 @@ class Projectile {
     c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
     c.fill()
+    
   }
 
   update() {
@@ -207,6 +241,7 @@ const x = canvas.width / 2
 const y = canvas.height / 2
 
 const player = new Player(x, y, 24, currentColor)
+const title = new Title(x, y, 24, currentColor)
 
 const projectile = new Projectile(
   player.x,
@@ -218,6 +253,10 @@ const projectile = new Projectile(
     y: 1
   }
 )
+
+function displayTitle() {
+
+}
 
 const projectiles = []
 const aiArray = []
@@ -280,6 +319,7 @@ function animate() {
   animationId = requestAnimationFrame(animate)
   c.clearRect(0,0,canvas.width,canvas.height)
   player.draw()
+  title.draw()
   currentColor = player.color
   intervalMult = 1000 - (combo)
   // preShake();
