@@ -17,6 +17,7 @@ pause = false
 diffMult = .5
 intervalMult = 1000
 combo = 0
+c.fillStyle = '#333333'
 
 shakeDuration = 800;
 shakeStartTime = -1;
