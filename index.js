@@ -405,12 +405,16 @@ addEventListener('keyup', event => {
 });
 
 //Player Movement
-addEventListener('mousemove', event => {
-  player.x = event.clientX;
-  player.y = event.clientY;
+addEventListener('mousemove', function(event) => {
+  myFunction(event);
+});
+                 
+function myFunction(e) {                 
+  player.x = e.clientX;
+  player.y = e.clientY;
 };
 
-
+// WASD movement
 addEventListener('keydown', event => {
   spd = 4
   if (event.keyCode == 87) {
@@ -427,6 +431,7 @@ addEventListener('keydown', event => {
     console.log(`Key "d" repeating  [event: keydown]`); }
 });
 
+//Shoots projectile on Click
 addEventListener('click', () => {
   const angle = Math.atan2(
     event.clientY - player.y,
