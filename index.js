@@ -241,7 +241,7 @@ class Ai {
 const x = canvas.width / 2
 const y = canvas.height / 2
 
-const player = new Player(x, y, 24, currentColor)
+const player = new Player(x, y, 24, playerColor)
 const title = new Title(x, y, 24, currentColor)
 
 const projectile = new Projectile(
@@ -262,12 +262,6 @@ function displayTitle() {
 
 const projectiles = []
 const aiArray = []
-
-function playerMove() {
-  
-}
-
-
 
 function spawnAI() {
   setInterval(() => {
@@ -410,8 +404,8 @@ addEventListener('mousemove', function(event) => {
 });
                  
 function myFunction(e) {                 
-  player.x = e.clientX;
-  player.y = e.clientY;
+  player.x = player.x;
+  player.y = player.y;
 };
 
 // WASD movement
