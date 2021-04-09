@@ -466,7 +466,7 @@ addEventListener('click', () => {
     new Projectile(player.x, player.y, 3, player.color, velocity)
   )
   
-  console.log(function(getMousePos(canvas,event));
+  console.log(function getMousePos(canvas,event));
 })
 
 animate()
