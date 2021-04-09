@@ -1,7 +1,7 @@
 // const instance = require('.gradient.js');
 // const gradiate = instance.gradient();
 // from gradient import gradient
-const portal="https://juliusbautista.com"
+const portal="https://juliusdcbautista.com"
 const canvas = document.querySelector('canvas');
 
 
