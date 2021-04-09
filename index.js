@@ -24,8 +24,6 @@ c.fillStyle = '#333333'
 shakeDuration = 800;
 shakeStartTime = -1;
 
-
-
 function getMousePos(canvas, evt) {
     var rect = canvas.getBoundingClientRect();
     return {
@@ -34,13 +32,8 @@ function getMousePos(canvas, evt) {
     };
 }
 
-
-mouse = getMousePos(canvas, evt);
-
 //VISUAL EFFECT FUNCTIONS
 //COLOR MODS
-
-
 
 
 function invertColor(hex) {
@@ -186,15 +179,16 @@ class Title {
 
 class Player {
   constructor(x,y,radius,color) {
-    this.x = mouse.x
-    this.y = mouse.y
+    this.x = x
+    this.y = y
     this.radius = radius
     this.color = color
   }
 
   draw() {
+    var mouse = getMousePos(canvas, evt);
     c.beginPath()
-    c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
+    c.arc(mouse.x, mouse.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
     c.fill()
   }
