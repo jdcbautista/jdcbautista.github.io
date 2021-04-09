@@ -433,7 +433,7 @@ addEventListener('mousemove', event => {
     //player.x += 1;
     //player.y += mousePos.y;
     console.log(mousePos.x,mousePos.y)
-}
+});
                  
 
 
