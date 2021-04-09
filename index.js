@@ -23,7 +23,7 @@ c.fillStyle = '#333333'
 
 shakeDuration = 800;
 shakeStartTime = -1;
-mouse = getMousePos(canvas, evt);
+
 
 
 function getMousePos(canvas, evt) {
@@ -35,8 +35,14 @@ function getMousePos(canvas, evt) {
 }
 
 
+mouse = getMousePos(canvas, evt);
+
 //VISUAL EFFECT FUNCTIONS
 //COLOR MODS
+
+
+
+
 function invertColor(hex) {
   if (hex.indexOf('#') === 0) {
       hex = hex.slice(1);
@@ -168,7 +174,7 @@ class Title {
     c.font = "30px Arial"
     // c.fillStyle = this.gradient;
     c.fillText("Julius Bautista", 20, 40)
-    c.fillText(mouse.x,40,60)
+    c.fillText(`${mouse.x}`,40,60)
   }
 
   update() {
