@@ -414,21 +414,6 @@ addEventListener('keydown', event => {
 });
 
 
-addEventListener('click', () => {
-  const angle = Math.atan2(
-    event.clientY - player.y,
-    event.clientX - player.x
-  )
-  const velocity = {
-    x: Math.cos(angle),
-    y: Math.sin(angle)
-  }
-
-  projectiles.push(
-    new Projectile(player.x, player.y, 3, player.color, velocity)
-  )
-})
-
 function() {
     document.onmousemove = handleMouseMove;
     function handleMouseMove(event) {
@@ -453,10 +438,26 @@ function() {
         }
 
         // Use event.pageX / event.pageY here
+        player.x = event.pageX;
+        player.y = event.pageY;
     }
 })();
 
 
+addEventListener('click', () => {
+  const angle = Math.atan2(
+    event.clientY - player.y,
+    event.clientX - player.x
+  )
+  const velocity = {
+    x: Math.cos(angle),
+    y: Math.sin(angle)
+  }
+
+  projectiles.push(
+    new Projectile(player.x, player.y, 3, player.color, velocity)
+  )
+})
 
 animate()
 spawnAI() 
