@@ -430,8 +430,8 @@ function followMouse(event) {
 addEventListener('mousemove', event => {
  let mousePos = getMousePos(canvas, event);
   
-    player.x = mousePos.x;
-    player.y = mousePos.y;
+    player.x = (player.x + mousePos.x / 2);
+    player.y = player.y + mousePos.y / 2;
     console.log(mousePos.x,mousePos.y)
 });
                  
