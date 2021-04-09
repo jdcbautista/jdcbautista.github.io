@@ -421,7 +421,7 @@ addEventListener('keyup', event => {
 /*Player Movement
 */
 addEventListener('mousemove', function(event) => {
-  myFunction(event);
+  followMouse(event);
 });
                  
 function followMouse(event) {                 
