@@ -14,6 +14,7 @@ canvas.fillStyle = "333333"
 
 console.log(c)
 currentColor = "#fefefe"
+playerColor = "#00ACFC"
 pause = false
 diffMult = .5
 intervalMult = 1000
@@ -254,12 +255,19 @@ const projectile = new Projectile(
   }
 )
 
+//Displays Title class, currently with single draw render.  Let's try adding an "enter" link.
 function displayTitle() {
 
 }
 
 const projectiles = []
 const aiArray = []
+
+function playerMove() {
+  
+}
+
+
 
 function spawnAI() {
   setInterval(() => {
@@ -389,12 +397,18 @@ function animate() {
 }
 
 
+//Was this going to be for pausing?
 addEventListener('keyup', event => {
   if (event.code == 'Space') {
     console.log('space')
   }
-})
+});
 
+//Player Movement
+addEventListener('mousemove', () => {
+  player.x = event.clientX;
+  player.y = event.clientY;
+};
 
 
 addEventListener('keydown', event => {
