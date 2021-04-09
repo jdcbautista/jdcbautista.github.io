@@ -437,9 +437,9 @@ addEventListener('mousemove', event => {
  } else if (mousePos.x < player.x) {
     offsetX -= 20} 
   if (mousePos.y > player.y) {
-    offsetX += 20
+    offsetX -= 20
  } else if (mousePos.y < player.y) {
-    offsetX -= 20} 
+    offsetX += 20} 
 
     
     player.x = ((player.x + mousePos.x) / 2) - offsetX;
