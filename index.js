@@ -23,6 +23,17 @@ c.fillStyle = '#333333'
 
 shakeDuration = 800;
 shakeStartTime = -1;
+mouse = getMousePos(canvas, evt);
+
+
+function getMousePos(canvas, evt) {
+    var rect = canvas.getBoundingClientRect();
+    return {
+      x: evt.clientX - rect.left,
+      y: evt.clientY - rect.top
+    };
+}
+
 
 //VISUAL EFFECT FUNCTIONS
 //COLOR MODS
@@ -169,8 +180,8 @@ class Title {
 
 class Player {
   constructor(x,y,radius,color) {
-    this.x = x
-    this.y = y
+    this.x = mouse.x
+    this.y = mouse.y
     this.radius = radius
     this.color = color
   }
@@ -238,8 +249,13 @@ class Ai {
 }
 
 
+
+
+
 const x = canvas.width / 2
 const y = canvas.height / 2
+
+
 
 const player = new Player(x, y, 24, playerColor)
 const title = new Title(x, y, 24, currentColor)
