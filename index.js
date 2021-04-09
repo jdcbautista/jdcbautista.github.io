@@ -195,7 +195,7 @@ class Player {
   }
 
   draw(evt) {
-    var mouse = getMousePos(canvas, evt);
+    var mouse = pseudoMouse(canvas, evt);
     c.beginPath()
     c.arc(mouse.x, mouse.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
