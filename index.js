@@ -25,11 +25,11 @@ c.fillStyle = '#333333'
 shakeDuration = 800;
 shakeStartTime = -1;
 
-function getMousePos(canvas, evt) {
+function getMousePos(canvas, event) {
     var rect = canvas.getBoundingClientRect();
     return {
-      x: evt.clientX - rect.left,
-      y: evt.clientY - rect.top
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top
     };
 }
 /*
@@ -465,7 +465,8 @@ addEventListener('click', () => {
   projectiles.push(
     new Projectile(player.x, player.y, 3, player.color, velocity)
   )
-  console.log(getMousePos);
+  
+  console.log(function(getMousePos(canvas,event));
 })
 
 animate()
