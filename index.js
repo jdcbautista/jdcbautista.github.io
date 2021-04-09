@@ -414,7 +414,9 @@ addEventListener('keydown', event => {
 });
 
 
-function() {
+
+
+(function() {
     document.onmousemove = handleMouseMove;
     function handleMouseMove(event) {
         var eventDoc, doc, body;
