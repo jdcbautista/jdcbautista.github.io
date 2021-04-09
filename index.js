@@ -447,7 +447,8 @@ addEventListener('keydown', event => {
     console.log(`Key "a" repeating  [event: keydown]`);
   }else if (event.keyCode == 68) { 
     player.x += (3 + spd);
-    console.log(`Key "d" repeating  [event: keydown]`); }
+    console.log(`Key "d" repeating  [event: keydown]`); 
+    console.log(getMousePos);}
 });
 
 //Shoots projectile on Click
@@ -464,7 +465,6 @@ addEventListener('click', () => {
   projectiles.push(
     new Projectile(player.x, player.y, 3, player.color, velocity)
   )
-  
   console.log(getMousePos);
 })
 
