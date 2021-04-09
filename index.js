@@ -187,6 +187,7 @@ class Title {
 
 }
 
+
 class Player {
   constructor(x,y,radius,color) {
     this.x = x
@@ -420,17 +421,20 @@ addEventListener('keyup', event => {
 });
 
 /*Player Movement
-
-addEventListener('mousemove', function(event) => {
-  followMouse(event);
-});
-                 
 function followMouse(event) {                 
   player.x = parseInt(event.clientX-offsetX);
   player.y = parseInt(event.clientY-offsetY;
 };
 
 */
+addEventListener('mousemove', event => {
+ let mousePos = getMousePos(canvas, event);
+    player.x = mousePos.x;
+    player.y = mousePos.y;
+}
+                 
+
+
 
 
 // WASD movement
@@ -466,7 +470,7 @@ addEventListener('click', () => {
     new Projectile(player.x, player.y, 3, player.color, velocity)
   )
   let mousePos = getMousePos(canvas, event);
-  console.log(mousePos);
+  console.log(mousePos.x);
 })
 
 animate()
