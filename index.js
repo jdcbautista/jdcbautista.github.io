@@ -1,7 +1,7 @@
 // const instance = require('.gradient.js');
 // const gradiate = instance.gradient();
 // from gradient import gradient
-
+const portal="https://juliusbautista.com"
 const canvas = document.querySelector('canvas');
 
 
@@ -467,6 +467,9 @@ addEventListener('keydown', event => {
 
 //Shoots projectile on Click
 addEventListener('click', () => {
+  if ((player.x < 235) && (player.y < 50)) {
+  window.location = portal;
+  } else {
   const angle = Math.atan2(
     event.clientY - player.y,
     event.clientX - player.x
@@ -481,7 +484,7 @@ addEventListener('click', () => {
   )
   let mousePos2 = getMousePos(canvas, event);
   console.log(mousePos2.x);
-})
+}})
 
 animate()
 spawnAI() 
