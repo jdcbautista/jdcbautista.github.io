@@ -416,7 +416,7 @@ addEventListener('keydown', event => {
 
 
 
-(function() {
+function() {
     document.onmousemove = handleMouseMove;
     function handleMouseMove(event) {
         var eventDoc, doc, body;
@@ -443,7 +443,7 @@ addEventListener('keydown', event => {
         player.x = event.pageX;
         player.y = event.pageY;
     }
-})();
+};
 
 
 addEventListener('click', () => {
