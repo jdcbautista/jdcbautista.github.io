@@ -23,7 +23,7 @@ c.fillStyle = '#333333'
 
 shakeDuration = 800;
 shakeStartTime = -1;
-
+/*
 function getMousePos(canvas, evt) {
     var rect = canvas.getBoundingClientRect();
     return {
@@ -40,7 +40,7 @@ function pseudoMouse(canvas, evt) {
     y: y
     };
 }
-
+*/
 //VISUAL EFFECT FUNCTIONS
 //COLOR MODS
 
@@ -194,15 +194,32 @@ class Player {
     this.color = color
   }
 
-  draw(evt) {
-    var mouse = pseudoMouse(canvas, evt);
+  draw() {
     c.beginPath()
-    c.arc(mouse.x, mouse.y, this.radius, 0, Math.PI * 2, false)
+    c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
     c.fillStyle = this.color
     c.fill()
   }
 
 }
+
+function mouseMove(e) {
+    var mouseX, mouseY;
+    if(e.offsetX) {
+        mouseX = e.offsetX;
+        mouseY = e.offsetY;
+    }
+    else if(e.layerX) {
+        mouseX = e.layerX;
+        mouseY = e.layerY;
+    }
+
+    return {
+        x: mouseX,
+        y: mouseY
+    };
+};
+
 
 class Projectile {
   constructor(x, y, radius, color, velocity) {
