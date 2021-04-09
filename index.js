@@ -398,7 +398,7 @@ addEventListener('keyup', event => {
   }
 });
 
-//Player Movement
+/*Player Movement
 addEventListener('mousemove', function(event) => {
   myFunction(event);
 });
@@ -407,6 +407,7 @@ function myFunction(e) {
   player.x = player.x;
   player.y = player.y;
 };
+*/
 
 // WASD movement
 addEventListener('keydown', event => {
