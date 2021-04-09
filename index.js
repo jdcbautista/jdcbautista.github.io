@@ -431,15 +431,15 @@ addEventListener('mousemove', event => {
  let mousePos = getMousePos(canvas, event);
  let offsetX = (player.x - mousePos.x) / 5
  let offsetY = (player.y - mousePos.y) / 5
-/*
+
  if (mousePos.x > player.x) {
-    offsetX = player.x - mousePos.x
+    offsetX += 20
  } else if (mousePos.x < player.x) {
-    offsetX = mousePos.x - player.x} 
-*/
+    offsetX -= 20} 
+
     
-    player.x = ((player.x + mousePos.x) / 2) + offsetX;
-    player.y = ((player.y + mousePos.y) / 2) + offsetY;
+    player.x = ((player.x + mousePos.x) / 2) - offsetX;
+    player.y = ((player.y + mousePos.y) / 2) - offsetY;
     console.log(mousePos.x,mousePos.y)
 });
                  
