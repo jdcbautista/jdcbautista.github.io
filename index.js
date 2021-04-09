@@ -174,7 +174,7 @@ class Title {
     c.font = "30px Arial"
     // c.fillStyle = this.gradient;
     c.fillText("Julius Bautista", 20, 40)
-    c.fillText(`${mouse.x}`,40,60)
+    c.fillText(`enter`,40,60)
   }
 
   update() {
