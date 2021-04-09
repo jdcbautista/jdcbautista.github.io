@@ -405,7 +405,7 @@ addEventListener('keyup', event => {
 });
 
 //Player Movement
-addEventListener('mousemove', () => {
+addEventListener('mousemove', event => {
   player.x = event.clientX;
   player.y = event.clientY;
 };
