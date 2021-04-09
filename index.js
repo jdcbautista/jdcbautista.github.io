@@ -426,14 +426,14 @@ function followMouse(event) {
   player.y = parseInt(event.clientY-offsetY;
 };
 
-*/
+
 addEventListener('mousemove', event => {
  let mousePos = getMousePos(canvas, event);
-    player.x = mousePos.x;
-    player.y = mousePos.y;
+    player.x += mousePos.x;
+    player.y += mousePos.y;
 }
                  
-
+*/
 
 
 
@@ -469,8 +469,8 @@ addEventListener('click', () => {
   projectiles.push(
     new Projectile(player.x, player.y, 3, player.color, velocity)
   )
-  let mousePos = getMousePos(canvas, event);
-  console.log(mousePos.x);
+  let mousePos2 = getMousePos(canvas, event);
+  console.log(mousePos2.x);
 })
 
 animate()
