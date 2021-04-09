@@ -425,8 +425,8 @@ addEventListener('mousemove', function(event) => {
 });
                  
 function followMouse(event) {                 
-  player.x = 100;
-  player.y = 20;
+  player.x = x;
+  player.y = y;
 };
 
 
