@@ -12,6 +12,7 @@ canvas.width = innerWidth
 canvas.height = innerHeight
 canvas.fillStyle = "333333"
 
+
 console.log(c)
 currentColor = "#fefefe"
 playerColor = "#00ACFC"
@@ -419,17 +420,17 @@ addEventListener('keyup', event => {
 });
 
 /*Player Movement
-*/
+
 addEventListener('mousemove', function(event) => {
   followMouse(event);
 });
                  
 function followMouse(event) {                 
-  player.x = x;
-  player.y = y;
+  player.x = parseInt(event.clientX-offsetX);
+  player.y = parseInt(event.clientY-offsetY;
 };
 
-
+*/
 
 
 // WASD movement
