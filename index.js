@@ -32,6 +32,15 @@ function getMousePos(canvas, evt) {
     };
 }
 
+function pseudoMouse(canvas, evt) {
+    var x = event.offsetX;
+    var y = event.offsetY;
+    return {
+    x: x,
+    y: y
+    };
+}
+
 //VISUAL EFFECT FUNCTIONS
 //COLOR MODS
 
