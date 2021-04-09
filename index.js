@@ -23,7 +23,7 @@ c.fillStyle = '#333333'
 
 shakeDuration = 800;
 shakeStartTime = -1;
-/*
+
 function getMousePos(canvas, evt) {
     var rect = canvas.getBoundingClientRect();
     return {
@@ -31,7 +31,7 @@ function getMousePos(canvas, evt) {
       y: evt.clientY - rect.top
     };
 }
-
+/*
 function pseudoMouse(canvas, evt) {
     var x = event.offsetX;
     var y = event.offsetY;
@@ -203,22 +203,6 @@ class Player {
 
 }
 
-function mouseMove(e) {
-    var mouseX, mouseY;
-    if(e.offsetX) {
-        mouseX = e.offsetX;
-        mouseY = e.offsetY;
-    }
-    else if(e.layerX) {
-        mouseX = e.layerX;
-        mouseY = e.layerY;
-    }
-
-    return {
-        x: mouseX,
-        y: mouseY
-    };
-};
 
 
 class Projectile {
@@ -274,14 +258,8 @@ class Ai {
 
 }
 
-
-
-
-
 const x = canvas.width / 2
 const y = canvas.height / 2
-
-
 
 const player = new Player(x, y, 24, playerColor)
 const title = new Title(x, y, 24, currentColor)
@@ -441,15 +419,18 @@ addEventListener('keyup', event => {
 });
 
 /*Player Movement
+*/
 addEventListener('mousemove', function(event) => {
   myFunction(event);
 });
                  
 function myFunction(e) {                 
-  player.x = player.x;
-  player.y = player.y;
+  player.x = 10;
+  player.y = 20;
 };
-*/
+
+
+
 
 // WASD movement
 addEventListener('keydown', event => {
