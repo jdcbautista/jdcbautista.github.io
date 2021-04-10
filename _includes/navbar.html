@@ -12,7 +12,7 @@
       {% for page in include.pages %}
         {% if page.title != nil and page.title != 'Home' and page.title != 'About' %}
           <li class="nav-item">
-            <a class="nav-link" href="/pages/{{ page.url }}">
+            <a class="nav-link" href="/pages{{ page.url }}">
               {{ page.title }}
             </a>
           </li>
