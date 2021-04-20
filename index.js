@@ -181,6 +181,11 @@ class Title {
     c.fillText("Julius Bautista", 20, 40)
     c.font = "16px Helvetica"
     c.fillText("Fullstack Software Engineer", 20, 60)
+    // c.textAlign(RIGHT);
+    c.font = "8px Arial";
+    c.fillText("v.0.7", (this.centerW * 2 -70), 20 )
+    c.fillText("Currently built for desktop browsing.  Mobile to come soon", (this.centerW * 2 - 260 ), 30)
+    // c.textAlign(LEFT);
     c.font = "14px Arial"
     c.fillText("Welcome to my page.", this.centerW+30, this.centerH-55)
     c.fillText("Please enjoy this interactive visualization,", this.centerW+30, this.centerH-40)
@@ -459,10 +464,10 @@ let offsetY = 0
 //  } else if (mousePos.y < player.y) {
 //     offsetY -= offsetY} 
 
-    if ((((player.x - mousePos.x) <= 20) && (player.x - mousePos.x) >= -20) && (((player.y - mousePos.y) <= 20) && (player.y - mousePos.y) >= -20))
+    if ((((player.x - mousePos.x) <= 25) && (player.x - mousePos.x) >= -25) && (((player.y - mousePos.y) <= 25) && (player.y - mousePos.y) >= -25))
     player.x = ((player.x + mousePos.x) / 2) - offsetX;
 
-    if ((((player.y - mousePos.y) <= 20) && (player.y - mousePos.y) >= -20) && (((player.x - mousePos.x) <= 20) && (player.x - mousePos.x) >= -20))
+    if ((((player.y - mousePos.y) <= 25) && (player.y - mousePos.y) >= -25) && (((player.x - mousePos.x) <= 25) && (player.x - mousePos.x) >= -25))
     player.y = ((player.y + mousePos.y) / 2) - offsetY;
 
     console.log(mousePos.x,mousePos.y)

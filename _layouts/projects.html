@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<!-- <div class='header'>
+  <h2>{{ page.title }}</h2>
+  {% if page.description %}
+    <p class='description'>{{ page.description }}</p>
+  {% endif %}
+  <p>{{ page.date | date: '%B %d, %Y' }}<p>
+</div> -->
+<hr/>
+
+<div>
+  {% if page.github_name %}
+    <h4>Code on Github</h4>
+    <a href="{{ site.data.social-media['github'].href }}{{ site.data.social-media['github'].id }}/{{page.github_name}}" title="{{ site.data.social-media['github'].title }}">Link to code</i></a>
+  {% endif %}
+  {{content}}
+</div>
+<div>
+  
+{% assign category = page.dir | replace: '/', '' %}
+<!-- <ul>
+  {% for post in site.categories[category] %}
+    <li>
+      <a href="{'{ projects.url }'}">
+        {{ post.title }}
+      </a>
+    </li>
+  {% endfor%}
+</ul> -->
+
+  {% for category in site.categories %}
+    <!-- <li><a name="{{ category | first }}"> -->
+      <!-- {{ category | first }} -->
+    </a>
+      <ul>
+      {% for post in category.last %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</div>

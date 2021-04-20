@@ -4,7 +4,7 @@ title: 'About'
 permalink: './about'
 ---
 <div class="whatevs">
-<p>
+<!-- <p>
 Some of my favorite books:<br>
 
 Homo Deus: A Brief History of Tomorrow<br>
@@ -37,7 +37,7 @@ by Oliver Burkeman
 The Sailor Who Fell from Grace with the Sea
 by Yukio Mishima
 
-</p>
+</p> -->
 </div>
 
 <!-- 

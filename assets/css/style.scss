@@ -8,12 +8,12 @@
 }
 
 .h2 {
-  color: #b3b3b3;
+  color: #393939;
 }
 
 .main-content {
-  fonr-size: 12 px;
-  color: #f4b3b3;
+  font-size: 12 px;
+  color: #cdcdcd;
 }
 
 
@@ -21,15 +21,31 @@
   color: #aeff00;
 }
 
-.page-header { color: #fff; text-align: center; background-color: #aeff00; background-image: linear-gradient(120deg, #00aaff, #aeff00); }
+.page-header { color: #fff; max-height:100px ;text-align: center; background-color: #aeff0000; background-image: linear-gradient(120deg, #00aaff00, #aeff0000); padding: 1rem 2rem; }
 
 .site-footer-credits{
   font-size: 8px;
 }
 
+.content{
+  background-color: #2f2f2f;
+}
 
+.main-content{
+  background-color: #2f2f2f;
+}
 
+.main-content hr{
+  background-color: #2f2f2f;
+}
 
+.custom-body{
+  background-color: #2f2f2f;
+}
+
+.hr{
+  background-color: #2f2f2f;
+}
 // //CAROUSEL
 // .carousel_container {
 //   max-width: 100rem;
