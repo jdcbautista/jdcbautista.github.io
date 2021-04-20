@@ -1,7 +1,7 @@
 // const instance = require('.gradient.js');
 // const gradiate = instance.gradient();
 // from gradient import gradient
-const portal="https://jdcbautista.github.io/about/"
+const portal="https://jdcbautista.github.io/about"
 const canvas = document.querySelector('canvas');
 
 
@@ -179,15 +179,16 @@ class Title {
     c.font = "32px Helvetica"
     // c.fillStyle = this.gradient;
     c.fillText("Julius Bautista", 20, 40)
+    c.font = "16px Helvetica"
+    c.fillText("Fullstack Software Engineer", 20, 60)
     c.font = "14px Arial"
-    c.fillText("Welcome to my page.", this.centerW-30, this.centerH-55)
-    c.fillText("Please enjoy this interactive visualization,", this.centerW-30, this.centerH-40)
-    c.fillText("which I will continue to build upon over time.", this.centerW-30, this.centerH-25)
-    c.fillText("Click on my name to read more about this or any of my other projects.", this.centerW-30, this.centerH-10)
-
-    c.font = "14px Arial"
-    c.fillText("Fullstack Software Engineer", 20, 80)
+    c.fillText("Welcome to my page.", this.centerW+30, this.centerH-55)
+    c.fillText("Please enjoy this interactive visualization,", this.centerW+30, this.centerH-40)
+    c.fillText("which I will continue to build upon over time.", this.centerW+30, this.centerH-25)
+    c.fillText("Bring the blue circle over to my name and click ", this.centerW+30, this.centerH-0)
+    c.fillText("to read more about this or any of my other projects.", this.centerW+30, this.centerH+15)
   }
+    
 
   update() {
     this.draw()
