@@ -180,7 +180,7 @@ class Title {
     // c.fillStyle = this.gradient;
     c.fillText("Julius Bautista", 20, 40)
     c.font = "16px Helvetica"
-    c.fillText("Fullstack Software Engineer", 20, 60)
+    c.fillText("Fullstack Software Developer", 20, 60)
     // c.textAlign(RIGHT);
     c.font = "8px Arial";
     c.fillText("v.0.7", (this.centerW * 2 -70), 20 )
