@@ -4,40 +4,7 @@ title: 'About'
 permalink: './about'
 ---
 <div class="whatevs">
-<!-- <p>
-Some of my favorite books:<br>
-
-Homo Deus: A Brief History of Tomorrow<br>
-by Yuval Noah Harari
-
-Creativity: The Psychology of Discovery & Invention
-by Mihaly Csikszentmihalyi
-
-Mastery
-by Robert Greene
-
-Neo-Bohemia: Art & Commere in the Postindustrial City
-by Richard Lloyd
-
-The Unconsoled
-by Kazuo Ishiguro
-
-Becoming
-by Michelle Obama
-
-The Demon-Haunted World
-by Carl Sagan
-
-The Origin of Consciousness
-by Julian Jaynes
-
-The Antidote:  Happiness For People Who Can't Stand Positive Thinking
-by Oliver Burkeman
-
-The Sailor Who Fell from Grace with the Sea
-by Yukio Mishima
-
-</p> -->
+<a href="https://www.linkedin.com/in/juliusdcbautista">LinkedIn</a>
 </div>
 
 <!-- 

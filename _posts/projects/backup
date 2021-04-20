@@ -1,12 +1,37 @@
----
-layout: post
-title:  "Truth Or Dare Online"
-date:   2021-02-01 12:00:00 -0500
-categories: Projects
----
-todo:
-- upload video
+<!-- <p>
+Some of my favorite books:<br>
 
+Homo Deus: A Brief History of Tomorrow<br>
+by Yuval Noah Harari
+
+Creativity: The Psychology of Discovery & Invention
+by Mihaly Csikszentmihalyi
+
+Mastery
+by Robert Greene
+
+Neo-Bohemia: Art & Commere in the Postindustrial City
+by Richard Lloyd
+
+The Unconsoled
+by Kazuo Ishiguro
+
+Becoming
+by Michelle Obama
+
+The Demon-Haunted World
+by Carl Sagan
+
+The Origin of Consciousness
+by Julian Jaynes
+
+The Antidote:  Happiness For People Who Can't Stand Positive Thinking
+by Oliver Burkeman
+
+The Sailor Who Fell from Grace with the Sea
+by Yukio Mishima
+
+</p> -->
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
