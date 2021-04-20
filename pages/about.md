@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about
+layout: post
+title: 'About'
+permalink: './about'
 ---
 <div class="whatevs">
 <p>

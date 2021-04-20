@@ -12,14 +12,14 @@
       {% for page in include.pages %}
         {% if page.title != nil and page.title != 'Home' and page.title != 'About' %}
           <li class="nav-item">
-            <a class="nav-link" href="/pages{{ page.url }}">
+            <a class="nav-link" href="{{ page.url }}">
               {{ page.title }}
             </a>
           </li>
         {% endif %}
       {% endfor%}
       <li class="nav-item">
-        <a class="nav-link" href="/pages/about">
+        <a class="nav-link" href="/about">
           About
         </a>
       </li>

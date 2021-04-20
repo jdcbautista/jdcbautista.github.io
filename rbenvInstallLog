@@ -1,0 +1,913 @@
+
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+^C
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/21q2/fbfsApp/agent(master) $ j jdcb
+/Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ jekyll build
+The dependency tzinfo (~> 1.2) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency wdm (~> 0.1.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32`.
+Traceback (most recent call last):
+        10: from /usr/local/bin/jekyll:23:in `<main>'
+         9: from /usr/local/bin/jekyll:23:in `load'
+         8: from /Library/Ruby/Gems/2.6.0/gems/jekyll-4.1.1/exe/jekyll:11:in `<top (required)>'
+         7: from /Library/Ruby/Gems/2.6.0/gems/jekyll-4.1.1/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+         6: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:149:in `setup'
+         5: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:26:in `setup'
+         4: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:26:in `map'
+         3: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/spec_set.rb:147:in `each'
+         2: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/spec_set.rb:147:in `each'
+         1: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:31:in `block in setup'
+/Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:312:in `check_for_activated_spec!': You have already activated i18n 1.8.5, but your Gemfile requires i18n 0.9.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ bundle exec jekyll build
+Configuration file: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io/_config.yml
+            Source: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io
+       Destination: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 6.961 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ jekyll serve
+The dependency tzinfo (~> 1.2) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency wdm (~> 0.1.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32`.
+Traceback (most recent call last):
+        10: from /usr/local/bin/jekyll:23:in `<main>'
+         9: from /usr/local/bin/jekyll:23:in `load'
+         8: from /Library/Ruby/Gems/2.6.0/gems/jekyll-4.1.1/exe/jekyll:11:in `<top (required)>'
+         7: from /Library/Ruby/Gems/2.6.0/gems/jekyll-4.1.1/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+         6: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler.rb:149:in `setup'
+         5: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:26:in `setup'
+         4: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:26:in `map'
+         3: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/spec_set.rb:147:in `each'
+         2: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/spec_set.rb:147:in `each'
+         1: from /Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:31:in `block in setup'
+/Library/Ruby/Gems/2.6.0/gems/bundler-2.1.4/lib/bundler/runtime.rb:312:in `check_for_activated_spec!': You have already activated i18n 1.8.5, but your Gemfile requires i18n 0.9.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ bundle exec jekyll serve
+Configuration file: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io/_config.yml
+            Source: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io
+       Destination: /Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 1.015 seconds.
+ Auto-regeneration: enabled for '/Users/juliusbautista/MikePlatoon/challenges/gh/jdcbautista.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2021-04-20 07:49:51] ERROR `/favicon.ico' not found.
+^Cjuliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem "kramdown", ">= 2.3.1"
+ERROR:  While executing gem ... (Gem::CommandLineError)
+    Unknown command kramdown,
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem kramdown 
+ERROR:  While executing gem ... (Gem::CommandLineError)
+    Unknown command kramdown
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem install kramdown -v 2.3.1
+Fetching kramdown-2.3.1.gem
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem signin
+Enter your RubyGems.org credentials.
+Don't have an account yet? Create one at https://rubygems.org/sign_up
+   Email:   jdcbautista@gmail.com
+Password:   
+
+HTTP Basic: Access denied.
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem signin
+Enter your RubyGems.org credentials.
+Don't have an account yet? Create one at https://rubygems.org/sign_up
+   Email:   jdcbautista@gmail.com
+Password:   
+
+Signed in.
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ gem install kramdown -v 2.3.1
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ rbenv global 2.6.0
+bash: rbenv: command not found
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ brew install rbenv
+Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:b065e5e3783954f3e65d8d3a6377ca51649bfcfa21b356b0dd70490f74c6bd86
+################################################################################# 100.0%
+==> Pouring portable-ruby-2.6.3_2.yosemite.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 3 taps (heroku/brew, homebrew/core and homebrew/services).
+==> New Formulae
+aida-header                   influxdb@1                    pkger
+aliddns                       inframap                      projectm
+ansible@2.9                   jpeg-xl                       ptpython
+archey4                       jql                           pure
+as-tree                       keptn                         pyqt-3d
+atkmm@2.28                    kertish-dfs                   pyqt-builder
+attr                          khiva                         pyqt-networkauth
+aws-console                   kickstart                     pyside@2
+bandit                        klee                          python-tabulate
+bas55                         ko                            python-tk@3.9
+bpython                       kotlin-language-server        qt-libiodbc
+brook                         kubergrunt                    qt-mariadb
+cadence-workflow              latino                        qt-mysql
+cargo-audit                   leaf-proxy                    qt-percona-server
+cargo-watch                   libcap-ng                     qt-postgresql
+cherrytree                    libmd                         qt-unixodbc
+cloudflare-wrangler           libnsl                        rdkit
+clusterctl                    libpinyin                     richmd
+coin3d                        libpipeline                   rosa-cli
+conftest                      libprelude                    rtl_433
+counterfeiter                 libunwind                     rttr
+cpplint                       libva                         ruby@2.7
+crackpkcs                     libvdpau                      saml2aws
+crane                         libvnc                        six
+crcany                        libxml++@4                    smu
+crispy-doom                   libxml++@5                    snowpack
+csvtk                         linux-pam                     spaceship
+curlie                        llvm@11                       spack
+dasel                         logswan                       sqlancer
+datalad                       lp_solve                      sqlc
+delve                         lttng-ust                     systemd
+djl-serving                   luajit-openresty              tctl
+dnsx                          luv                           terracognita
+dory                          mapcidr                       tgenv
+dprint                        marcli                        thrax
+driftctl                      massdns                       threemux
+dstask                        md4c                          timg
+dua-cli                       mermaid-cli                   tomcat@9
+efm-langserver                minisat                       trec_eval
+enkits                        mockery                       truffle
+enzyme                        moto                          tz
+epr                           mpdecimal                     vc
+flow-cli                      msc-generator                 virtualenv
+forge                         muffet                        vitess
+gallery-dl                    multitime                     vsh
+gdu                           mx                            waffle
+geph4                         name-that-hash                wayland
+ghc@9                         net-tools                     wayland-protocols
+glibc                         nuclei                        wllvm
+go-boring                     numactl                       xcb-util-cursor
+go@1.15                       oakc                          xcb-util-image
+gofumpt                       obfs4proxy                    xcb-util-keysyms
+gojq                          ocaml-zarith                  xcb-util-renderutil
+gopass-jsonapi                open-adventure                xcb-util-wm
+goredo                        openalpr                      xcbeautify
+grokj2k                       openmama                      xcinfo
+grokmirror                    openmodelica                  xcprojectlint
+gtkmm4                        oras                          xplr
+h2spec                        orgalorg                      xray
+haruhi-dl                     organize-tool                 ykdl
+haskell-language-server       osmcoastline                  yq@3
+hblock                        pandoc-plot                   yubikey-agent
+heppdt2                       parliament                    zinit
+hexo                          pcalc                         zlib-ng
+htmltest                      pcp                           zsh-async
+iconsur                       pdftilecut                    zsh-vi-mode
+indicators                    phpbrew
+==> Updated Formulae
+Updated 5070 formulae.
+==> Renamed Formulae
+fcct -> butane
+glibmm@2.64 -> glibmm@2.66
+gtk+4 -> gtk4
+ht-rust -> xh
+kde-extra-cmake-modules -> extra-cmake-modules
+kde-karchive -> karchive
+kde-kdoctools -> kdoctools
+kde-ki18n -> ki18n
+kde-threadweaver -> threadweaver
+libsasl2 -> cyrus-sasl
+minizip2 -> minizip-ng
+pangomm@2.42 -> pangomm@2.46
+prest -> prestd
+pyqt5 -> pyqt@5
+qt5 -> qt@5
+==> Deleted Formulae
+atlassian-cli         dtrx                  gobby                 unrar
+avian                 geant4                godep
+
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.18-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:2fdf452c94c6b63ea0a4560
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.71
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:258a94bef23057c52
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/manifests/0.29.2_3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:80f141e695f73bd
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:fe4de019cf549376a
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://github.com/rbenv/ruby-build/archive/v20210405.tar.gz
+==> Downloading from https://codeload.github.com/rbenv/ruby-build/tar.gz/v20210405
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rbenv/manifests/1.1.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rbenv/blobs/sha256:503ed6d818502f00f031
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Installing dependencies for rbenv: m4, autoconf, pkg-config, readline and ruby-build
+==> Installing rbenv dependency: m4
+==> Pouring m4--1.4.18.catalina.bottle.1.tar.gz
+==> Caveats
+m4 is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have m4 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/m4/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+==> Summary
+🍺  /usr/local/Cellar/m4/1.4.18: 13 files, 672.3KB
+==> Installing rbenv dependency: autoconf
+==> Pouring autoconf--2.71.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/autoconf/2.71: 71 files, 3.2MB
+==> Installing rbenv dependency: pkg-config
+==> Pouring pkg-config--0.29.2_3.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.29.2_3: 11 files, 624.0KB
+==> Installing rbenv dependency: readline
+==> Pouring readline--8.1.catalina.bottle.tar.gz
+==> Caveats
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides BSD libedit.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+For pkg-config to find readline you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/readline/8.1: 48 files, 1.6MB
+==> Installing rbenv dependency: ruby-build
+==> ./install.sh
+==> Caveats
+ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
+
+To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded) add the following
+to your /Users/juliusbautista/.bash_profile:
+  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+Note: this may interfere with building old versions of Ruby (e.g <2.4) that use
+OpenSSL <1.1.
+==> Summary
+🍺  /usr/local/Cellar/ruby-build/20210405: 527 files, 262.6KB, built in 6 seconds
+==> Installing rbenv
+==> Pouring rbenv--1.1.2.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/rbenv/1.1.2: 36 files, 69.4KB
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/aria2--1.35.0.catalina.bottle.tar.gz... (1.2MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/autojump--22.5.3_2.catalina.bottle.tar.gz... (45.7KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/ballerburg--1.2.0.catalina.bottle.tar.gz... (74.1KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/cmatrix--2.0.catalina.bottle.tar.gz... (22.5KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/gdbm--1.18.1_1.catalina.bottle.tar.gz... (203.8KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/gettext--0.21.catalina.bottle.tar.gz... (8.5MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/heroku--7.47.4.tar.xz... (6.9MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/heroku-node--12.16.2.tar.xz... (9.5MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/icu4c--67.1.catalina.bottle.tar.gz... (26.8MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/libssh2--1.9.0_1.catalina.bottle.tar.gz... (324.5KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/lolcat--100.0.1.catalina.bottle.tar.gz... (367.0KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/openssl@1.1--1.1.1h.catalina.bottle.tar.gz... (5.4MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/python@3.8--3.8.6_1.catalina.bottle.tar.gz... (16.8MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/python@3.9--3.9.0_1.catalina.bottle.tar.gz... (17.9MB)
+Removing: /usr/local/Cellar/readline/8.0.4... (48 files, 1.5MB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/readline--8.0.4.catalina.bottle.tar.gz... (517.7KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/sdl--1.2.15_2.catalina.bottle.tar.gz... (429.8KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/sl--5.02.catalina.bottle.tar.gz... (5.7KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/tree--1.8.0.catalina.bottle.tar.gz... (49.5KB)
+Removing: /Users/juliusbautista/Library/Caches/Homebrew/xz--5.2.5.catalina.bottle.tar.gz... (387.2KB)
+Removing: /Users/juliusbautista/Library/Logs/Homebrew/heroku... (114B)
+Removing: /Users/juliusbautista/Library/Logs/Homebrew/heroku-node... (119B)
+Pruned 1 symbolic links from /usr/local
+==> Upgrading 6 dependents:
+anime-downloader 5.0.1 -> 5.0.9, postgresql 13.0 -> 13.2_1, postgresql@12 12.4_1 -> 12.6_1, python@3.8 3.8.6_1 -> 3.8.9, python@3.9 3.9.0_1 -> 3.9.4, sqlite 3.33.0 -> 3.35.4
+==> Upgrading postgresql@12 12.4_1 -> 12.6_1 
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/68.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:fdc2f15705175478dc16
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1k
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:cb610ecdda3460
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.19.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:6a41de7c23c35b555a223
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/12/manifests/12.6_1-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/12/blobs/sha256:27c3eb917fea
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Installing dependencies for postgresql@12: icu4c, openssl@1.1 and krb5
+==> Installing postgresql@12 dependency: icu4c
+==> Pouring icu4c--68.2.catalina.bottle.tar.gz
+==> Caveats
+icu4c is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have icu4c first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find icu4c you may need to set:
+  export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+  export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+
+For pkg-config to find icu4c you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/icu4c/68.2: 259 files, 72.5MB
+==> Installing postgresql@12 dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1k.catalina.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+For pkg-config to find openssl@1.1 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1k: 8,071 files, 18.5MB
+==> Installing postgresql@12 dependency: krb5
+==> Pouring krb5--1.19.1.catalina.bottle.tar.gz
+==> Caveats
+krb5 is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have krb5 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/krb5/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+  echo 'export PATH="/usr/local/opt/krb5/sbin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find krb5 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/krb5/lib"
+  export CPPFLAGS="-I/usr/local/opt/krb5/include"
+
+For pkg-config to find krb5 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/krb5/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/krb5/1.19.1: 162 files, 5.2MB
+==> Installing postgresql@12
+==> Pouring postgresql@12--12.6_1.catalina.bottle.1.tar.gz
+==> /usr/local/Cellar/postgresql@12/12.6_1/bin/initdb --locale=C -E UTF-8 /usr/local/var
+==> Caveats
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /usr/local/var/postgresql@12
+For more details, read:
+  https://www.postgresql.org/docs/12/app-initdb.html
+
+postgresql@12 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have postgresql@12 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/postgresql@12/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find postgresql@12 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/postgresql@12/lib"
+  export CPPFLAGS="-I/usr/local/opt/postgresql@12/include"
+
+For pkg-config to find postgresql@12 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/postgresql@12/lib/pkgconfig"
+
+
+To have launchd start postgresql@12 now and restart at login:
+  brew services start postgresql@12
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgresql@12 start
+==> Summary
+🍺  /usr/local/Cellar/postgresql@12/12.6_1: 3,225 files, 41.7MB
+Removing: /usr/local/Cellar/postgresql@12/12.4_1... (3,223 files, 41.4MB)
+==> Upgrading python@3.8 3.8.6_1 -> 3.8.9 
+==> Downloading https://ghcr.io/v2/homebrew/core/gdbm/manifests/1.19
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gdbm/blobs/sha256:a3e43170a1d8413e6817e
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/2.5.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:1a8314428019cec8
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.35.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:a1aee82c8dec9baf007
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tcl-tk/manifests/8.6.11_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:f4027cdfd4d797d769b
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.8/manifests/3.8.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:65a3d5fa32b16df
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Installing dependencies for python@3.8: gdbm, mpdecimal, sqlite and tcl-tk
+==> Installing python@3.8 dependency: gdbm
+==> Pouring gdbm--1.19.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.19: 24 files, 789KB
+==> Installing python@3.8 dependency: mpdecimal
+==> Pouring mpdecimal--2.5.1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/mpdecimal/2.5.1: 71 files, 2.1MB
+==> Installing python@3.8 dependency: sqlite
+==> Pouring sqlite--3.35.4.catalina.bottle.tar.gz
+==> Caveats
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have sqlite first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+For pkg-config to find sqlite you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.35.4: 11 files, 4.2MB
+==> Installing python@3.8 dependency: tcl-tk
+==> Pouring tcl-tk--8.6.11_1.catalina.bottle.tar.gz
+==> Caveats
+tcl-tk is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have tcl-tk first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/tcl-tk/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find tcl-tk you may need to set:
+  export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
+  export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
+
+For pkg-config to find tcl-tk you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/tcl-tk/8.6.11_1: 3,041 files, 51.6MB
+==> Installing python@3.8
+==> Pouring python@3.8--3.8.9.catalina.bottle.tar.gz
+==> /usr/local/Cellar/python@3.8/3.8.9/bin/python3 -s setup.py --no-user-cfg install --f
+==> /usr/local/Cellar/python@3.8/3.8.9/bin/python3 -s setup.py --no-user-cfg install --f
+==> /usr/local/Cellar/python@3.8/3.8.9/bin/python3 -s setup.py --no-user-cfg install --f
+==> Caveats
+Python has been installed as
+  /usr/local/opt/python@3.8/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.8/libexec/bin
+
+You can install Python packages with
+  /usr/local/opt/python@3.8/bin/pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.8/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+
+python@3.8 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have python@3.8 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find python@3.8 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
+
+For pkg-config to find python@3.8 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/python@3.8/3.8.9: 4,376 files, 71.4MB
+Removing: /usr/local/Cellar/python@3.8/3.8.6_1... (5,183 files, 86.4MB)
+==> Upgrading sqlite 3.35.4 -> 3.35.4 
+Removing: /usr/local/Cellar/sqlite/3.33.0... (11 files, 4MB)
+==> Upgrading anime-downloader 5.0.1 -> 5.0.9 
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.0.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:a382d95787cc2a5742a
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.17.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:3fc1e6a9c560039998b
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.41.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:fec3670ca2dcbe641c13
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jemalloc/manifests/5.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jemalloc/blobs/sha256:b1b211e5bead798c2
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libev/manifests/4.33
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libev/blobs/sha256:e5481e2ba48282bffb5e
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nghttp2/manifests/1.43.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:5db5819e321f04b230
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/15.14.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:6bfc60e2d3f32cb0e381c
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.9/manifests/3.9.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:225b1f2e9bbc2d7
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python-tabulate/manifests/0.8.9-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python-tabulate/blobs/sha256:9e8e0c24b8
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/anime-downloader/manifests/5.0.9
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/anime-downloader/blobs/sha256:ca0111a13
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Installing dependencies for anime-downloader: brotli, c-ares, libuv, jemalloc, libev, nghttp2, node, python@3.9 and python-tabulate
+==> Installing anime-downloader dependency: brotli
+==> Pouring brotli--1.0.9.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/brotli/1.0.9: 25 files, 2.3MB
+==> Installing anime-downloader dependency: c-ares
+==> Pouring c-ares--1.17.1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.17.1: 85 files, 672.5KB
+==> Installing anime-downloader dependency: libuv
+==> Pouring libuv--1.41.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libuv/1.41.0: 49 files, 3.1MB
+==> Installing anime-downloader dependency: jemalloc
+==> Pouring jemalloc--5.2.1_1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/jemalloc/5.2.1_1: 16 files, 2MB
+==> Installing anime-downloader dependency: libev
+==> Pouring libev--4.33.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libev/4.33: 12 files, 454.9KB
+==> Installing anime-downloader dependency: nghttp2
+==> Pouring nghttp2--1.43.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/nghttp2/1.43.0: 24 files, 2.8MB
+==> Installing anime-downloader dependency: node
+==> Pouring node--15.14.0.catalina.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink include/node/common.gypi
+Target /usr/local/include/node/common.gypi
+already exists. You may want to remove it:
+  rm '/usr/local/include/node/common.gypi'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite node
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run node
+
+Possible conflicting files are:
+/usr/local/include/node/common.gypi
+/usr/local/include/node/config.gypi
+/usr/local/include/node/libplatform/libplatform-export.h
+/usr/local/include/node/libplatform/libplatform.h
+/usr/local/include/node/libplatform/v8-tracing.h
+/usr/local/include/node/node.h
+/usr/local/include/node/node_api.h
+/usr/local/include/node/node_api_types.h
+/usr/local/include/node/node_buffer.h
+/usr/local/include/node/node_object_wrap.h
+/usr/local/include/node/node_version.h
+/usr/local/include/node/v8-platform.h
+/usr/local/include/node/v8-profiler.h
+/usr/local/include/node/v8-util.h
+/usr/local/include/node/v8-value-serializer-version.h
+/usr/local/include/node/v8-version-string.h
+/usr/local/include/node/v8-version.h
+/usr/local/include/node/v8.h
+/usr/local/include/node/v8config.h
+/usr/local/share/doc/node/gdbinit
+/usr/local/share/doc/node/lldb_commands.py
+/usr/local/share/man/man1/node.1
+/usr/local/share/systemtap/tapset/node.stp
+/usr/local/lib/dtrace/node.d
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall node
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/15.14.0: 2,808 files, 48.8MB
+==> Installing anime-downloader dependency: python@3.9
+==> Pouring python@3.9--3.9.4.catalina.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3
+Target /usr/local/bin/2to3
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python@3.9
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run python@3.9
+
+Possible conflicting files are:
+/usr/local/bin/2to3 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/2to3
+/usr/local/bin/2to3-3.9 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/2to3-3.9
+/usr/local/bin/idle3 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/idle3
+/usr/local/bin/idle3.9 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/idle3.9
+/usr/local/bin/pydoc3 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/pydoc3
+/usr/local/bin/pydoc3.9 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/pydoc3.9
+/usr/local/bin/python3 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+/usr/local/bin/python3-config -> /Library/Frameworks/Python.framework/Versions/3.9/bin/python3-config
+/usr/local/bin/python3.9 -> /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+/usr/local/bin/python3.9-config -> /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9-config
+==> /usr/local/Cellar/python@3.9/3.9.4/bin/python3 -m ensurepip
+==> /usr/local/Cellar/python@3.9/3.9.4/bin/python3 -m pip install -v --no-deps --no-inde
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.9/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.9/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.9
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@3.9/3.9.4: 3,047 files, 54.2MB
+==> Installing anime-downloader dependency: python-tabulate
+==> Pouring python-tabulate--0.8.9.catalina.bottle.1.tar.gz
+🍺  /usr/local/Cellar/python-tabulate/0.8.9: 14 files, 122.4KB
+==> Installing anime-downloader
+==> Pouring anime-downloader--5.0.9.catalina.bottle.tar.gz
+^[[1;2D🍺  /usr/local/Cellar/anime-downloader/5.0.9: 1,281 files, 15.8MB
+Removing: /usr/local/Cellar/anime-downloader/5.0.1... (1,904 files, 47.3MB)
+==> Upgrading postgresql 13.0 -> 13.2_1 
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/manifests/13.2_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/postgresql/blobs/sha256:02af915cc2b5291
+==> Downloading from https://pkg-containers-az.githubusercontent.com/ghcr1/blobs/sha256:
+######################################################################## 100.0%
+==> Pouring postgresql--13.2_1.catalina.bottle.tar.gz
+==> Caveats
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /usr/local/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/13/app-initdb.html
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+==> Summary
+🍺  /usr/local/Cellar/postgresql/13.2_1: 3,218 files, 42.6MB
+Removing: /usr/local/Cellar/postgresql/13.0... (3,216 files, 42.6MB)
+==> Upgrading python@3.9 3.9.4 -> 3.9.4 
+Removing: /usr/local/Cellar/python@3.9/3.9.0_1... (4,659 files, 74.7MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> Caveats
+==> m4
+m4 is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have m4 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/m4/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+==> readline
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides BSD libedit.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+For pkg-config to find readline you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
+==> ruby-build
+ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
+
+To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded) add the following
+to your /Users/juliusbautista/.bash_profile:
+  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+Note: this may interfere with building old versions of Ruby (e.g <2.4) that use
+OpenSSL <1.1.
+==> icu4c
+icu4c is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides libicucore.dylib (but nothing else).
+
+If you need to have icu4c first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+  echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find icu4c you may need to set:
+  export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+  export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+
+For pkg-config to find icu4c you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"
+
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+For pkg-config to find openssl@1.1 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+==> krb5
+krb5 is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have krb5 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/krb5/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+  echo 'export PATH="/usr/local/opt/krb5/sbin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find krb5 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/krb5/lib"
+  export CPPFLAGS="-I/usr/local/opt/krb5/include"
+
+For pkg-config to find krb5 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/krb5/lib/pkgconfig"
+
+==> postgresql@12
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /usr/local/var/postgresql@12
+For more details, read:
+  https://www.postgresql.org/docs/12/app-initdb.html
+
+postgresql@12 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have postgresql@12 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/postgresql@12/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find postgresql@12 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/postgresql@12/lib"
+  export CPPFLAGS="-I/usr/local/opt/postgresql@12/include"
+
+For pkg-config to find postgresql@12 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/postgresql@12/lib/pkgconfig"
+
+
+To have launchd start postgresql@12 now and restart at login:
+  brew services start postgresql@12
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgresql@12 start
+==> sqlite
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have sqlite first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+For pkg-config to find sqlite you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+
+==> tcl-tk
+tcl-tk is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have tcl-tk first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/tcl-tk/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find tcl-tk you may need to set:
+  export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
+  export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
+
+For pkg-config to find tcl-tk you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig"
+
+==> python@3.8
+Python has been installed as
+  /usr/local/opt/python@3.8/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.8/libexec/bin
+
+You can install Python packages with
+  /usr/local/opt/python@3.8/bin/pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.8/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+
+python@3.8 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have python@3.8 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> /Users/juliusbautista/.bash_profile
+
+For compilers to find python@3.8 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
+
+For pkg-config to find python@3.8 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
+
+==> node
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> python@3.9
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.9/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.9/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.9
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> postgresql
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /usr/local/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/13/app-initdb.html
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+juliusbautista@Vincents-MacBook-Pro:~/MikePlatoon/challenges/gh/jdcbautista.github.io(main) $ D

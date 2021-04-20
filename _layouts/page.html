@@ -1,5 +1,14 @@
 ---
 layout: default
 ---
+<div class='header'>
+  <h2>{{ page.title }}</h2>
+  {% if page.description %}
+    <p class='description'>{{ page.description }}</p>
+  {% endif %}
+  <p>{{ page.date | date: '%B %d, %Y' }}<p>
+    {{ content }}
+</div>
+<hr/>
 <!-- <h2 class='title'>{{page.title}}</h2> -->
-{{ content }}
+
