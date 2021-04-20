@@ -1,15 +1,15 @@
 // const instance = require('.gradient.js');
 // const gradiate = instance.gradient();
 // from gradient import gradient
-const portal="https://jdcbautista.github.io/pages/about/"
+const portal="https://jdcbautista.github.io/about/"
 const canvas = document.querySelector('canvas');
 
 
 const c = canvas.getContext('2d')
 
 //subproperty innerWidth of window property can exclude window from window.innerWidth 
-canvas.width = innerWidth
-canvas.height = innerHeight
+canvas.width = innerWidth - 1
+canvas.height = innerHeight - 1
 canvas.fillStyle = "333333"
 
 
@@ -162,6 +162,8 @@ class Title {
     this.x = x
     this.y = y
     this.color = color
+    this.centerW = canvas.width / 2
+    this.centerH = canvas.height * 2 / 3
     // this.gradient = c.createLinearGradient(0,0, c.width, 0);
     // this.gradient.addColorStop("0", "magenta");
     // this.gradient.addColorStop("0.5", "blue");
@@ -174,10 +176,17 @@ class Title {
     // c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
     // c.fillStyle = this.color 
     // c.fill()
-    c.font = "30px Arial"
+    c.font = "32px Helvetica"
     // c.fillStyle = this.gradient;
     c.fillText("Julius Bautista", 20, 40)
-    c.fillText("Julius Bautista", 20, 60)
+    c.font = "14px Arial"
+    c.fillText("Welcome to my page.", this.centerW-30, this.centerH-55)
+    c.fillText("Please enjoy this interactive visualization,", this.centerW-30, this.centerH-40)
+    c.fillText("which I will continue to build upon over time.", this.centerW-30, this.centerH-25)
+    c.fillText("Click on my name to read more about this or any of my other projects.", this.centerW-30, this.centerH-10)
+
+    c.font = "14px Arial"
+    c.fillText("Fullstack Software Engineer", 20, 80)
   }
 
   update() {
@@ -428,23 +437,33 @@ function followMouse(event) {
 };
 */
 
+//Avatar follows player
 addEventListener('mousemove', event => {
  let mousePos = getMousePos(canvas, event);
- let offsetX = (player.x - mousePos.x) 
- let offsetY = (player.y - mousePos.y)
+//  let offsetX = (player.x - mousePos.x) 
+//  let offsetY = (player.y - mousePos.y)
+let offsetX = 0 
+let offsetY = 0
 
- if (mousePos.x > player.x) {
-    offsetX += offsetX
- } else if (mousePos.x < player.x) {
-    offsetX -= offsetX} 
-  if (mousePos.y > player.y) {
-    offsetY += offsetY
- } else if (mousePos.y < player.y) {
-    offsetY -= offsetY} 
 
-    
+// if (mousePos.x - player.x > 10 )
+
+//   if (((mousePos.x - player.x) >= 10) || ((player.x - mousePos.x) >= 10) ) {
+//     offsetX += offsetX
+//  } else if (mousePos.x < player.x) {
+//     offsetX -= offsetX} 
+  
+//   if (mousePos.y > player.y) {
+//     offsetY += offsetY
+//  } else if (mousePos.y < player.y) {
+//     offsetY -= offsetY} 
+
+    if ((((player.x - mousePos.x) <= 20) && (player.x - mousePos.x) >= -20) && (((player.y - mousePos.y) <= 20) && (player.y - mousePos.y) >= -20))
     player.x = ((player.x + mousePos.x) / 2) - offsetX;
+
+    if ((((player.y - mousePos.y) <= 20) && (player.y - mousePos.y) >= -20) && (((player.x - mousePos.x) <= 20) && (player.x - mousePos.x) >= -20))
     player.y = ((player.y + mousePos.y) / 2) - offsetY;
+
     console.log(mousePos.x,mousePos.y)
 });
                  
