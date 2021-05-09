@@ -1,6 +1,6 @@
 ---
 layout: post
-description: 'blah blah'
+description: 'software developer'
 permalink: './about'
 ---
 <div class="whatevs">
