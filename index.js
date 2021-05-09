@@ -464,10 +464,10 @@ let offsetY = 0
 //  } else if (mousePos.y < player.y) {
 //     offsetY -= offsetY} 
 
-    if ((((player.x - mousePos.x) <= 25) && (player.x - mousePos.x) >= -25) && (((player.y - mousePos.y) <= 25) && (player.y - mousePos.y) >= -25))
+    if ((((player.x - mousePos.x) <= 52) && (player.x - mousePos.x) >= -52) && (((player.y - mousePos.y) <= 52) && (player.y - mousePos.y) >= -52))
     player.x = ((player.x + mousePos.x) / 2) - offsetX;
 
-    if ((((player.y - mousePos.y) <= 25) && (player.y - mousePos.y) >= -25) && (((player.x - mousePos.x) <= 25) && (player.x - mousePos.x) >= -25))
+    if ((((player.y - mousePos.y) <= 52) && (player.y - mousePos.y) >= -52) && (((player.x - mousePos.x) <= 52) && (player.x - mousePos.x) >= -52))
     player.y = ((player.y + mousePos.y) / 2) - offsetY;
 
     console.log(mousePos.x,mousePos.y)

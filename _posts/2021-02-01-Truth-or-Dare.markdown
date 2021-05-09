@@ -4,8 +4,11 @@ title:  "Truth Or Dare Online"
 date:   2021-02-01 12:00:00 -0500
 categories: Projects
 ---
-todo:
-- upload video
+
+Browser based social media app utilizing React, Cloud Firestore & Twilio API to synchronize camera streams for an online game of Truth or Dare.
+
+<a href="https://www.youtube.com/watch?v=oggIOLFVQMQ">Presentation Video</a>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/oggIOLFVQMQ" frameborder="0" ></iframe>
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

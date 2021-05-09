@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 'About'
+description: 'blah blah'
 permalink: './about'
 ---
 <div class="whatevs">
+<p>Hi, this page is all about trying to figure out what I'm all about.</p>
 <a href="https://www.linkedin.com/in/juliusdcbautista">LinkedIn</a>
 </div>
 

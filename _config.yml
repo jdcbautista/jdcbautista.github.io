@@ -26,11 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdcbautista.github.io" 
 # twitter_username: jekyllrb
 # github_username:  jekyll
+github: [metadata]
 
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
 
 defaults:
   -
