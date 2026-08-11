@@ -11,7 +11,7 @@ import * as THREE from 'three'
  * translation track is stripped so it walks in place instead of drifting.
  */
 
-// Base-aware so it resolves under /portfolio/ in production and / in dev.
+// Base-aware so the asset follows the configured deployment root.
 const asset = (file: string) => `${import.meta.env.BASE_URL}${file}`
 
 function Walker() {

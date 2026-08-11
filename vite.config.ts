@@ -5,9 +5,10 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
 // https://vite.dev/config/
-// base is '/portfolio/' for the GitHub Pages project site, '/' for local dev.
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/portfolio/' : '/',
+// The portfolio is the GitHub Pages user site, so development and production
+// both resolve assets from the root URL.
+export default defineConfig({
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -50,4 +51,4 @@ export default defineConfig(({ command }) => ({
       },
     },
   },
-}))
+})
