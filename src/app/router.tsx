@@ -22,6 +22,7 @@ export const router = createHashRouter([
     children: [
       { index: true, element: <HomePage /> },
       { path: 'projects/:slug', element: <ProjectPage /> },
+      // Renders the vendored jcdbautista/cv export (public/cv/) inside the shell.
       { path: 'cv', element: <CvPage /> },
       { path: 'about', element: <AboutPage /> },
       { path: '*', element: <NotFoundPage /> },
