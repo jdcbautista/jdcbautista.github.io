@@ -1,1 +1,0 @@
-import{j as n}from"./react-vendor-C5mYEmOC.js";import{b as u}from"./index-B3ljzEPF.js";function i({variant:t="primary",size:o="md",className:r,type:s="button",...m}){return n.jsx("button",{type:s,className:u({variant:t,size:o,className:r}),...m})}export{i as B};
